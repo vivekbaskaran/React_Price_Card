@@ -1,38 +1,66 @@
-.App {
+.plans-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 100px;
+  background-color: #0265E7;
+}
+
+.plan-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px; /* Adjust the width as needed */
+  background-color: #FFFFFF;
+}
+
+
+.plan-header  {
+  margin: 0;
+   border-bottom: 2px solid lightgrey; /* You can change the width, style, and color */
+}
+
+h5{
+  color: grey;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.price {
+  margin: 0 0 0 20px;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.features {
+  list-style: none;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.features li {
+  padding: 5px 0;
+}
+
+.available {
+  color: green;
+}
+
+.unavailable {
+  color: red;
+}
+
+button {
+  background-color:#4BA2FF;
   color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 250px;
+  margin-left: 20px;
 }
+.pro-button{
+  background-color:#007AFF;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
